@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survery Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <h1 id="title">Language Learning Survey</h1>
+  <p id="description">The limits of my languages are the limits of your world.</p>
+
+  <form id="survey-form">
+    <div class="form-control">
+      <label id="name-label" for="name">
+        <h2>Name</h2></label>
+        <input id="name" type="text" required class="form-control" placeholder="Enter your name">
+    </div>
+    <div class="form-control">
+      <label id="email-label">
+      <h2>Email Address</h2></label>  
+        <input id="email" type="email" class="form-control" placeholder="Enter your email" required>
+    </div>
+    <div class="form-control">
+      <label id="number-label" for="age">
+        <h2>Age</h2></label>
+        <input id="number" type="number" class="form-control"  placeholder="Enter your age" required min="16" max="110">
+
+      <div class="education">
+        <h2>Level of Education</h2>
+        <select name="" id="dropdown">
+          <option id="dropdown" value="">College</option>
+          <option id="dropdown" value="">University</option>
+          <option id="dropdown" value="">Masters</option>
+          <option id="dropdown" value="">Doctorate</option>
+          <option id="dropdown" value="">Highschool</option>
+        </select>
+      </div>
+
+      <div class="membership">
+        <h2>Membership Type</h2>
+        <label>
+          <input type="radio" value="bronze" name="member">Bronze
+        </label>
+        <label>
+          <input type="radio" value="silver" name="member">Silver
+        </label>   
+        <label>
+          <input type="radio" value="gold" name="member">Gold
+        </label>  
+        <label>
+          <input type="radio" value="platinum" name="member">Platinum
+        </label>  
+      </div>
+
+      <div class="languages">
+        <h2>Classes</h2>
+        <label>
+          <input type="checkbox" name="choices" value="italian">
+          English
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="italian">
+          Italian
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="french">
+          French
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="spanish">
+          Spanish
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="japanese">
+          Japanese
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="chinese">
+          Chinese
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="korean">
+          Korean
+        </label>
+
+        <label>
+          <input type="checkbox" name="choices" value="arabic">
+          Arabic
+        </label>
+      </div>    
+      
+      <div class="btn">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+
+      <div class="form-control">
+        <h3>Suggestions and Feedbacks goes here</h3>
+        <textarea name="" id="" cols="0" rows="10" placeholder="Enter your comment here..."></textarea>
+      </div>
+      
+  </form>
+</body>
+</html>

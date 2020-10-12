@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #c56183;
+  color: #fff;
+}
+
+#description {
+  text-align: center;
+}
+
+#title {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+form {
+  background-color: #794c74;
+  padding: 20px;
+  padding-left: 20px;
+  margin-top: 30px;
+  width: 50%;
+  height: 50%;
+  border-radius: 40px;
+}
+
+h2 {
+  padding: 8px;
+  margin-top: 15px;
+}
+
+#name-label input {
+  width: 80%;
+  height: 25px;
+}
+
+#email-label input {
+  width: 80%;
+  height: 25px;
+}
+
+#age-label input {
+  width: 80%;
+  height: 25px;
+}
+
+#dropdown {
+  text-align: center;
+}
+
+.membership input {
+  display: inline-block;
+  padding: 5px;
+}
+
+.languages {
+  padding: 10px;
+  display: block;
+}
+
+button {
+  width: 30%;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #c56183;
+  color: floralwhite;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+textarea {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 70%;
+  padding: 20px;
+  margin-top: 30px;
+}
